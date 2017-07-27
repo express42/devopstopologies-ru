@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>DevOps Topologies</title>
+    <title>DevOps Топологии</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900' rel='stylesheet' type='text/css'>
@@ -30,20 +30,20 @@
 	<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
 	<meta name="msapplication-config" content="/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	<meta property="og:title" content="DevOps Topologies" />
+	<meta property="og:title" content="DevOps Топологии" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://web.devopstopologies.com" />
 	<meta property="og:image" content="http://web.devopstopologies.com/images/type-1.png" />
-	<meta property="og:description" content="The primary goal of any DevOps setup within an organisation is to improve the delivery of value for customers and the business, not in itself to reduce costs, increase automation, or drive everything from configuration management; this means that different organisations might need different team structures in order for effective Dev and Ops collaboration to take place." />
+	<meta property="og:description" content="Основная цель DevOps в любой организации - улучшить качество поставки ценности клиентам и бизнесу, а не уменьшить расходы, улучшить автоматизацию или контролировать все из системы управления конфигурацией. Следовательно, для эффективного взаимодействия разработчиков (Dev) и эксплуатации (Ops) в разных организациях нужны разные структуры команд." />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-    
-    <body> 
-    <div id="content">    
+
+    <body>
+    <div id="content">
     <header>
         <div class="header-fixed">
-        <div class="author-message"><p>This content was originally authored by Matthew Skelton. <a target="_blank" href="http://blog.matthewskelton.net/2013/10/22/what-team-structure-is-right-for-devops-to-flourish/">See the original</a></p><a class="close" href="#"><i class="fa fa-times"></i></a><div style="clear:both"></div></div>
-        <div class="header"> 
+        <div class="author-message"><p>Изначально данная публикация была написана Matthew Skelton. <a target="_blank" href="http://blog.matthewskelton.net/2013/10/22/what-team-structure-is-right-for-devops-to-flourish/">Прочитать оригинал</a></p><a class="close" href="#"><i class="fa fa-times"></i></a><div style="clear:both"></div></div>
+        <div class="header">
         <div class="container">
         <div class="logo">
             <a href="index.html"><img src="images/logo.png" alt="DevOps Topologies"/></a>
@@ -52,115 +52,115 @@
             <div class="nav">
             <ul>
             <li>
-            <a href="#anti-types">Anti-Types</a>    
+            <a href="#anti-types">Антипаттерны</a>
             </li>
             <li>
-            <a href="#team-topologies">Team Topologies</a>    
+            <a href="#team-topologies">Структуры команд</a>
             </li>
             </ul>
             </div>
         </div>
-        </div>   
+        </div>
         </div>
         <div class="container">
             <div style="height:100px"></div>
             <div class="header-title">
-            <h1>What Team Structure is Right for DevOps to Flourish?</h1>
+            <h1>Какая структура команды нужна для процветания DevOps?</h1>
                 <a class="down-arrow" href="#intro"><i class="fa fa-angle-down"></i></a>
             </div>
         </div>
     </header>
-        
+
                 <div id="intro">
                 <div class="full-width-section" style="background-color:#fff;">
                     <div class="container">
-                        <h4><img src="images/type-1-small.png" alt="Topologies" class="align-left"/>Introduction</h4><div style="clear:both"></div>
+                        <h4><img src="images/type-1-small.png" alt="Topologies" class="align-left"/>Вступление</h4><div style="clear:both"></div>
 
-                        <p>The primary goal of any DevOps setup within an organisation is to improve the delivery of value for customers and the business, not in itself to reduce costs, increase automation, or drive everything from configuration management; this means that different organisations might need different team structures in order for effective Dev and Ops collaboration to take place.</p>
+                        <p>Основная цель DevOps в любой организации - улучшить качество поставки ценности клиентам и бизнесу, а не уменьшить расходы, улучшить автоматизацию или внедрить систему управления конфигурацией. Следовательно для эффективного взаимодействия разработки (Dev) и эксплуатации (Ops) в разных организациях нужны разные структуры команд.</p>
                     </div>
                 </div>
                 </div>
 
             <div class="full-width-section dark" style="background-color:#15253d;">
         <div class="container">
-            <h2>Summary</h2>    
-            
+            <h2>Резюме</h2>
+
             <div class="sub-heading">
-                <p>Exactly which DevOps team structure or topology will suit an organisation depends on several things:</p></div>
-           
-        <div class="row">    
+                <p>Какая именно структура DevOps команды подойдет организации зависит от нескольких факторов:</p></div>
+
+        <div class="row">
         <div class="col-1-4">
             <i class="custom-icon icon-businessman273">&#xe801;</i>
-            <p>The product set of the organisation: fewer products make for easier collaboration, as there will be fewer natural silos, as predicted by Conway’s Law.</p>
+            <p>Набор продуктов организации: чем меньше програмнных продуктов, тем проще взаимодействие, вследствие меньшего количества естественных барьеров описанных законом Конвея.</p>
         </div>
-            
+
         <div class="col-1-4">
             <i class="custom-icon icon-businessman271">&#xe800;</i>
-            <p>The extent, strength, and effectiveness of technical leadership; whether Dev and Ops have a shared goal.</p>
-        </div>  
-            
+            <p>Степень, качество и эффективность технического управления; имеют ли разработка и эксплуатация общие цели.</p>
+        </div>
+
         <div class="col-1-4">
             <i class="custom-icon icon-monitor145">&#xe803;</i>
-            <p>Whether an organisation has the capability or appetite to change its IT Operations department from ‘racking hardware’ and ‘configuring servers’ to real alignment with the value stream, and for operational features to be taken seriously by software teams.</p>
-        </div>  
-            
+            <p>Готовность и желание организации изменить отдел эксплуатации в соответствии со своим потоком создания ценностей, и готовность продуктовых команд относиться серьезно к эксплуатационным особенностям.</p>
+        </div>
+
         <div class="col-1-4">
             <i class="custom-icon icon-tasks3">&#xe802;</i>
-            <p>Whether the organisation has the capacity or skills to take the lead on operational concerns.</p>
-        </div> 
+            <p>Наличие в организации способности и навыков взять инициативу в вопросах эксплуатации.</p>
         </div>
-            
+        </div>
+
             <div class="clear"></div>
-            
-            <p>Of course, there are variations on the themes outlined here; the topologies and types are meant as a reference guide or heuristic for assessing which patterns might be appropriate. In reality, a combination of more than one pattern, or one pattern transforming into another, will often be the best approach.</p>
+
+            <p>Конечно, существуют различные вариации решений в поднятой проблематике; структуры и паттерны приведены как примеры и справочный материал для оценки применимости тех или иных шаблонов. На практике, чаще всего лучшим решением является комбинация нескольких шаблонов или шаблон меняющийся в другой.</p>
         </div>
-        </div>    
-        
+        </div>
+
     <div class="full-width-section" style="background-color:#fff;">
         <div class="container">
         <div class="row">
         <div class="col-1-2">
-            <p>So what team structure is right for DevOps to flourish? Clearly, there is no magic conformation or team topology which will suit every organisation. However, it is useful to characterise a small number of different models for team structures, some of which suit certain organisations better than others. By exploring the strengths and weaknesses of these team structures (or ‘topologies’), we can identify the team structure which might work best for DevOps practices in our own organisations, taking into account Conway’s Law.</p>  
+            <p>Так какая структура команды нужна для процветания DevOps? Очевидно, что не существует серебряной пули или структуры команды, которая подошла бы любой организации. Тем не менее, будет полезно описать несколько различных моделей построения команд, некоторые из них подойдут конкретной организации лучше остальных. Изучая сильные и слабые стороны структур команд (или топологий), можно найти такую структуру, которая наилучшим образом подойдет для реализации DevOps практик в вашей организации, учитывая закон Конвея.</p>
         </div>
-            
+
         <div class="col-1-2">
-            <p>Most of these DevOps topologies have been described elsewhere before; in particular, Lawrence Sweeney of CollabNet goes into useful detail in a comment on Ben Kepes’s blog about what I characterise here as <a href="#anti-type-b">Anti-Type B (DevOps Team Silo)</a>, <a href="#type-three">Type 3 (Ops as IaaS)</a>, and <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a>. The DevOpsGuys have a list of Twelve DevOps Anti-Patterns, and Jez Humble, Gene Kim, Damon Edwards (and many others) have said similar things. I have added here three additional ‘topologies’ which I’ve not seen or heard discussed much (<a href="#type-two">Shared Ops</a>, <a href="#type-four">DevOps-as-a-Service</a>, and <a href="#type-five">Temp DevOps Team</a>).</p>  
+            <p>Большинство DevOps топологий уже были ранее описаны. В частности, Lawrence Sweeney из CollabNet описывает интересные подробности в комментариях к публикации в блоге Ben Kepes о структурах, которые я обозначил как <a href="#anti-type-b">Антипаттерн B (Изолированная DevOps команда)</a>, <a href="#type-three">Паттерн 3 (Эксплуатация как IaaS)</a>, и <a href="#type-one">Паттерн 1 (Сотрудничество разработки и эксплуатации)</a>. У DevOpsGuys есть список из двенадцати антипаттернов DevOps, и у Jez Humble, Gene Kim, Damon Edwards (и многих других) есть подобные списки. Я добавил три дополнительные 'топологии', которые я редко встречал (<a href="#type-two">Общая эксплуатация</a>, <a href="#type-four">DevOps-as-a-Service</a> и <a href="#type-five">Временная DevOps команда</a>).</p>
         </div>
         </div>
         </div>
-        
+
         <div class="clear"></div>
     </div>
-        
+
     <div id="anti-types" class="full-width-section dark" style="background:url(images/bg-orange.jpg);">
         <div class="container">
             <h2><strong>DevOps</strong> Anti-Types</h2>
-            
+
             <div class="sub-heading">
             <p>It’s useful to look at some bad practices, what
 we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             </div>
         </div>
     </div>
-        
+
     <div class="sub-nav" style="background-color:#e95234;">
         <div class="container">
         <ul>
         <!--li><strong>Anti-Type</strong></li-->
-        <li><a href="#anti-type-a">A: Dev vs Ops</a></li>  
-        <li><a href="#anti-type-b">B: DevOps Silo</a></li>  
-        <li><a href="#anti-type-c">C: No Ops Needed</a></li>  
-        <li><a href="#anti-type-d">D: Tools Team</a></li>  
-        <li><a href="#anti-type-e">E: SysAdmin</a></li>  
-        <li><a href="#anti-type-f">F: Embedded Ops</a></li>  
-        <li><a href="#anti-type-g">G: Dev vs DBA</a></li>  
+        <li><a href="#anti-type-a">A: Dev vs Ops</a></li>
+        <li><a href="#anti-type-b">B: DevOps Silo</a></li>
+        <li><a href="#anti-type-c">C: No Ops Needed</a></li>
+        <li><a href="#anti-type-d">D: Tools Team</a></li>
+        <li><a href="#anti-type-e">E: SysAdmin</a></li>
+        <li><a href="#anti-type-f">F: Embedded Ops</a></li>
+        <li><a href="#anti-type-g">G: Dev vs DBA</a></li>
         </ul>
         </div>
     </div>
-        
+
     <div class="full-width-section anti-types">
         <div class="container">
-        <div id="anti-type-a" class="row">    
+        <div id="anti-type-a" class="row">
         <div class="col-1-2">
             <h5><strong>Anti-Type A:</strong> Dev and Ops Silos</h5>
 
@@ -168,19 +168,19 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>We likely all know this topology is bad, but I think there are actually worse topologies; at least with Anti-Type A (Dev and Ops Silos), we know there is a problem.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/anti-type-a.png" alt="Anti-Type A"/>
         </div>
-        </div>    
-            
+        </div>
+
         <div id="anti-type-b" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
             <img src="images/anti-type-b.png" alt="Anti-Type B" class=""/>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Anti-Type B:</strong> DevOps Team Silo</h5>
 
@@ -188,13 +188,13 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>The only situation where a separate DevOps silo really makes sense is when the team is temporary, lasting less than (say) 12 or 18 months, with the express purpose of bringing Dev and Ops closer together, and with a clear mandate to make the DevOps team superfluous after that time; this becomes what I have called a <a href="#type-five">Type 5 DevOps Topology</a>.</p>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/anti-type-b.png" alt="Anti-Type B" class=""/>
         </div>
-        </div>    
-        
+        </div>
+
         <div id="anti-type-c" class="row">
         <div class="col-1-2">
             <h5><strong>Anti-Type C:</strong> Dev Don't Need Ops</h5>
@@ -203,19 +203,19 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>Such an Anti-Type C DevOps topology will probably end up needing either a <a href="#type-three">Type 3 (Ops as IaaS)</a> or a <a href="#type-four">Type 4 (DevOps-as-a-Service)</a> topology when their software becomes more involved and operational activities start to swamp ‘development’ (aka coding) time. If only such teams recognised the importance of Operations as a discipline as important and valuable as software development, they would be able to avoid much pain and unnecessary (and quite basic) operational mistakes.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/anti-type-c.png" alt="Anti-Type C"/>
         </div>
         </div>
-            
-        <div id="anti-type-d" class="row">    
+
+        <div id="anti-type-d" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
             <img src="images/anti-type-d.png" alt="Anti-Type D"/>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Anti-Type D:</strong> DevOps as Tools Team</h5>
 
@@ -223,14 +223,14 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>Although the outcomes of this dedicated team can be beneficial in terms of an improved tool chain, its impact is limited. The fundamental problem of lack of early Ops involvement and collaboration in the application development lifecycle remains unchanged.</p>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/anti-type-d.png" alt="Anti-Type D"/>
         </div>
-        </div>    
-            
-        <div id="anti-type-e" class="row">    
+        </div>
+
+        <div id="anti-type-e" class="row">
         <div class="col-1-2">
             <h5><strong>Anti-Type E:</strong> Rebranded SysAdmin</h5>
 
@@ -238,13 +238,13 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>DevOps becomes just a rebranding of the role previously known as SysAdmin, with no real cultural/organizational change taking place. This anti-type is becoming more and more widespread as unscrupulous recruiters jump on the bandwagon searching for candidates with automation and tooling skills. Unfortunately, it's the human communication skills that can make DevOps thrive in an organization.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/anti-type-e.png" alt="Anti-Type E"/>
         </div>
-        </div>     
-        
+        </div>
+
         <div id="anti-type-f" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
@@ -252,7 +252,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             <div class="thanks-link">Thanks to Matt Franz
 <a target="_blank" href="http://twitter.com/seclectech">(@seclectech)</a></div>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Anti-Type F:</strong> Ops Embedded in Dev Team</h5>
 
@@ -260,15 +260,15 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>In this anti-type the organization shows lack of appreciation for the importance and skills required for effective IT operations.</p>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/anti-type-f.png" alt="Anti-Type F"/>
             <div class="thanks-link">Thanks to Matt Franz
 <a target="_blank" href="http://twitter.com/seclectech">(@seclectech)</a></div>
         </div>
-        </div>    
-            
+        </div>
+
         <div id="anti-type-g" class="row">
         <div class="col-1-2">
             <h5><strong>Anti-Type G:</strong> Dev and DBA Silos</h5>
@@ -277,35 +277,35 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>Furthermore, just like Ops in <a href="#anti-type-a">Anti-Type A</a>, the DBA team is not involved early in the application development, thus data problems (migrations, performance, etc) are found late in the delivery cycle. Coupled with the overload of supporting multiple applications databases, the end result is constant firefighting and mounting pressure to deliver.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/anti-type-g.png" alt="Anti-Type G"/>
-        </div> 
         </div>
-                   
         </div>
-        
+
+        </div>
+
         <div class="clear"></div>
     </div>
-        
+
         <div id="team-topologies" class="full-width-section dark" style="background:url(images/bg-lt-blue.jpg);">
         <div class="container">
             <h2><strong>DevOps</strong> Team Topologies</h2>
-            
+
             <div class="sub-heading">
             <p>In opposition to the anti-types, we can look at some topologies in which DevOps can be made to work.</p>
             </div>
         </div>
     </div>
-        
+
     <div class="sub-nav" style="background-color:#2786af;">
         <div class="container">
         <ul>
         <!--li><strong>Topologies</strong></li-->
-        <li><a href="#type-one">1: Dev+Ops</a></li>  
-        <li><a href="#type-two">2: Shared Ops</a></li>  
-        <li><a href="#type-three">3: Ops as IaaS</a></li>  
+        <li><a href="#type-one">1: Dev+Ops</a></li>
+        <li><a href="#type-two">2: Shared Ops</a></li>
+        <li><a href="#type-three">3: Ops as IaaS</a></li>
         <li><a href="#type-four">4: DevOps-as-a-Service</a></li>
         <li><a href="#type-five">5: Temp DevOps Team</a></li>
         <li><a href="#type-six">6: DevOps Evangelists</a></li>
@@ -315,7 +315,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
         </ul>
         </div>
     </div>
-        
+
     <div class="full-width-section topologies">
         <div class="container">
         <div id="type-one" class="row">
@@ -326,7 +326,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>My sense is that this Type 1 model needs quite substantial organisational change to establish it, and a good degree of competence higher up in the technical management team. Dev and Ops must have a clearly expressed and demonstrably effective shared goal (‘Delivering Reliable, Frequent Changes’, or whatever). Ops folks must be comfortable pairing with Devs and get to grips with test-driven coding and Git, and Devs must take operational features seriously and seek out Ops people for input into logging implementations, and so on, all of which needs quite a culture change from the recent past.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/type-1.png" alt="Type 1"/>
@@ -339,7 +339,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             </div>
         </div>
         </div>
-            
+
         <div id="type-two" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
@@ -352,7 +352,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Type 2:</strong> Fully Shared Ops Reponsibilities</h5>
 
@@ -360,7 +360,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>Organisations such as Netflix and Facebook with effectively a single web-based product have achieved this Type 2 topology, but I think it’s probably not hugely applicable outside a narrow product focus, because the budgetary constraints and context-switching typically present in an organisation with multiple product streams will probably force Dev and Ops further apart (say, back to a <a href="#type-one">Type 1 model</a>). This topology might also be called ‘NoOps‘, as there is no distinct or visible Operations team (although the Netflix NoOps might also be <a href="#type-three">Type 3 (Ops as IaaS)</a>).</p>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/type-2.png" alt="Type 2"/>
@@ -372,8 +372,8 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-        </div>    
-        
+        </div>
+
         <div id="type-three" class="row">
         <div class="col-1-2">
             <h5><strong>Type 3:</strong> Ops as Infrastructure-as-a-Service</h5>
@@ -384,7 +384,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>The IaaS topology trades some potential effectiveness (losing direct collaboration with Ops people) for easier implementation, possibly deriving value more quickly than by trying for <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a> which could be attempted at a later date.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/type-3.png" alt="Type 3"/>
@@ -397,7 +397,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             </div>
         </div>
         </div>
-            
+
         <div id="type-four" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
@@ -410,7 +410,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Type 4:</strong> DevOps as an External Service</h5>
 
@@ -418,7 +418,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>What might be called DevOps-as-a-Service could be a useful and pragmatic way for a small organisation or team to learn about automation, monitoring, and configuration management, and then perhaps move towards a <a href="#type-three">Type 3 (Ops as IaaS)</a> or even  <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a> model as they grow and take on more staff with operational focus.</p>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/type-4.png" alt="Type 4"/>
@@ -430,8 +430,8 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-        </div>    
-        
+        </div>
+
         <div id="type-five" class="row">
         <div class="col-1-2">
             <h5><strong>Type 5:</strong> DevOps Team with an Expiry Date</h5>
@@ -440,7 +440,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>The members of the temporary team will ‘translate’ between Dev-speak and Ops-speak, introducing crazy ideas like stand-ups and Kanban for Ops teams, and thinking about dirty details like load-balancers, management NICs, and SSL offloading for Dev teams. If enough people start to see the value of bringing Dev and Ops together, then the temporary team has a real chance of achieving its aim; crucially, long-term responsibility for deployments and production diagnostics should not be given to the temporary team, otherwise it is likely to become a <a href="#anti-type-b">DevOps Team Silo (Anti-Type B).</a></p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/type-5.png" alt="Type 5"/>
@@ -453,7 +453,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             </div>
         </div>
         </div>
-            
+
         <div id="type-six" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
@@ -468,18 +468,18 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Type 6:</strong> DevOps Evangelists Team</h5>
 
             <p>Within organisations that have a large gap between Dev and Ops (or the tendency towards a large gap), it can be effective to have a 'facilitating' DevOps team that keeps the Dev and Ops sides talking. This is a version of <a href="#type-five">Type 5 (DevOps Team with an Expiry Date)</a> but where the DevOps team exists on an ongoing basis with the specific remit of facilitating collaboration and cooperation between Dev and Ops teams. Members of this team are sometimes called 'DevOps Evangelists', because they help to spread awareness of DevOps practices.</p>
-            
+
             <div class="tweet"><p><a href="https://twitter.com/ericminick/status/517335119330172930">The goal for a "DevOps Team" should be to put itself out of business by enabling the rest of the org.</a></p>
             <div class="tweet-author"><i class="fa fa-twitter"></i><a href="https://twitter.com/ericminick">EricMinick</a></div>
                 <div class="clear"></div>
             </div>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/type-6.png" alt="Type 6"/>
@@ -493,8 +493,8 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-        </div>    
-        
+        </div>
+
         <div id="type-seven" class="row">
         <div class="col-1-2">
             <h5><strong>Type 7:</strong> SRE Team (Google Model)</h5>
@@ -503,7 +503,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
             <p>Crucially, the SRE team can reject software that is operationally substandard, asking the Developers to improve the code before it is put into Production. Collaboration between Dev and SRE happens around operational criteria but once the SRE team is happy with the code, they (and not the Dev team) support it in Production.</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/type-7.png" alt="Type 7"/>
@@ -518,7 +518,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             </div>
         </div>
         </div>
-            
+
         <div id="type-eight" class="row">
         <div class="col-1-2 hidden-mobile">
             <div class="spacer"></div>
@@ -534,13 +534,13 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-            
+
         <div class="col-1-2">
             <h5><strong>Type 8:</strong> Container-Driven Collaboration</h5>
 
             <p>Containers remove the need for some kinds of collaboration between Dev and Ops by encapsulating the deployment and runtime requirements of an app into a container. In this way, the container acts as a boundary on the responsibilities of both Dev and Ops. With a sound engineering culture, the Container-Driven Collaboration model works well, but if Dev starts to ignore operational considerations this model can revert towards to an adversarial 'us and them'.</p>
         </div>
-            
+
         <div class="col-1-2 hidden-desktop">
             <div class="spacer"></div>
             <img src="images/type-8.png" alt="Type 8"/>
@@ -554,15 +554,15 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
                 </div>
             </div>
         </div>
-        </div>    
-        
+        </div>
+
         <div id="type-nine" class="row">
         <div class="col-1-2">
             <h5><strong>Type 9:</strong> Dev and DBA Collaboration</h5>
 
             <p>In order to bridge the Dev-DBA chasm, some organisations have experimented with something like Type 9, where a database capability from the DBA team is complimented with a database capability (or specialism) from the Dev team. This seems to help to translate between the Dev-centric view of databases (as essentially dumb persistence stores for apps) and the DBA-centric view of databases (smart, rich sources of business value).</p>
         </div>
-            
+
         <div class="col-1-2">
             <div class="spacer"></div>
             <img src="images/type-9.png" alt="Type 9"/>
@@ -575,45 +575,45 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             </div>
         </div>
         </div>
-            
-        
+
+
     </div>
     </div>
     </div>
-        
+
     <footer>
     <div class="container">
-        <h3 style="color:#fff">Remember: There is no ‘right’ team topology, but several ‘bad’ topologies for any one organisation.</h3>
+        <h3 style="color:#fff">Помните: Не существует единой 'правильной' структуры команды, но есть несколько однозначно 'плохих'.</h3>
     <div class="row">
         <div class="col-1-3">
-        <h4>Have Your Say</h4>
-            
-        <p>Have you seen team topologies that are not represented here?</p>
-        <p>Which diagramming tools should we use in the future? <!--a href="http://casual-effects.com/markdeep/">Markdeep</a>? <a href="http://www.w3schools.com/svg/">SVG</a>?<--></p>
+        <h4>Выскажитесь</h4>
 
-        <a class="button blue" href="http://web.devopstopologies.com/#disqus_thread">Make a suggestion</a>
+        <p>Встречали ли вы структуру команды не описанную здесь?</p>
+        <p>Какой инструмент для построения диаграмм нам лучше использовать? <!--a href="http://casual-effects.com/markdeep/">Markdeep</a>? <a href="http://www.w3schools.com/svg/">SVG</a>?<--></p>
+
+        <a class="button blue" href="http://web.devopstopologies.com/#disqus_thread">Обсудить</a>
         </div>
         <div class="col-1-3">
-        <h4>Contribute</h4>
-            
-        <p>We're keen for additions and suggestions from anyone who has an interest in team topologies. The code for this website is available on Github - send us a pull request!</p>     
-        
-        <a class="button blue" href="https://github.com/SkeltonThatcher/devopstopologies">Contribute on GitHub</a>
+        <h4>Внеси свой вклад</h4>
+
+        <p>Мы всегда рады дополнениям и предложениям от любого заинтересованного в структурах команд. Код этого сайта доступен на Github - присылай свой pull request!</p>
+
+        <a class="button blue" href="https://github.com/SkeltonThatcher/devopstopologies">Поучаствовать на GitHub</a>
         </div>
         <div class="col-1-3">
-        <h4>Meet the contributors</h4>
-        
+        <h4>Познакомся с авторами</h4>
+
             <!-- <img src="images/matthew-skelton.jpg" alt="Matthew Skelton" class="author-image"/> -->
-          
-            <p>The first version of these DevOps Topologies was <a href="http://blog.matthewskelton.net/2013/10/22/what-team-structure-is-right-for-devops-to-flourish/">created by Matthew Skelton in 2013</a>. After it became clear that these topologies were very useful to lots of people, he decided to create this micro-site to allow more collaboration and discussion.</p> 
 
-            <p>Manuel Pais has edited and helped improve both the current site and the patterns descriptions and identification.</p>
-            
-            <p><a href="https://skeltonthatcher.com/meet-the-team/#matthew">Matthew</a> and <a href="https://skeltonthatcher.com/meet-the-team/#manuel">Manuel</a> are People-Friendly Technologist at <a href="http://skeltonthatcher.com/">Skelton Thatcher Consulting</a>.</p>
-      
+            <p>Первую версию DevOps топологий <a href="http://blog.matthewskelton.net/2013/10/22/what-team-structure-is-right-for-devops-to-flourish/">написал Matthew Skelton в 2013</a>. Как стало ясно, что данные топологии полезны множеству людей, он решил создать этот микро-сайт с целью предоставить возможность для совместной работы и обсуждения.</p>
+
+            <p>Manuel Pais редактировал и помог улучшить как сам сайт, так и описания и определения паттернов.</p>
+
+            <p><a href="https://skeltonthatcher.com/meet-the-team/#matthew">Matthew</a> и <a href="https://skeltonthatcher.com/meet-the-team/#manuel">Manuel</a> занимают должность People-Friendly Technologist в <a href="http://skeltonthatcher.com/">Skelton Thatcher Consulting</a>.</p>
+
         </div>
     </div>
-   
+
     <div class="row">
         <div id="disqus_thread"></div>
     </div>
@@ -626,7 +626,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
     </div>
     </footer>
-        
+
     <script>
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
@@ -642,7 +642,7 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
         }
       });
     });
-        
+
     $(window).on("scroll", function() {
     if ($(this).scrollTop() > 100) {
        $(".header-fixed").css("background","#0b131f");
@@ -651,29 +651,29 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
        $(".header-fixed").css("background","");
     }
  });
-        
+
         $(document).ready(function(){
     $(".close").click(function(){
         $(".author-message").fadeOut()
     });
 });
-        
+
         jQuery(function($){
         var redirect = false;
         var seeShift = localStorage.neveragain;
             console.log(seeShift);
-                
+
         if(seeShift == undefined)
-          {             
+          {
                     $('.author-message').css('display', 'block');
-                    //set storage          
+                    //set storage
                     $('.close').click(function(){
                          localStorage.neveragain = "true";
                          $('.author-message').fadeOut('fast');
                         });
 
-                  
-            }                      
+
+            }
 
         });
 
