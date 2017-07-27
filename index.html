@@ -320,11 +320,11 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
         <div class="container">
         <div id="type-one" class="row">
         <div class="col-1-2">
-            <h5><strong>Type 1:</strong> Dev and Ops Collaboration</h5>
+            <h5><strong>Тип 1:</strong> Сотрудничество команд разработки и эксплуатации</h5>
+            <p>Это 'земля обетованная' культуры DevOps: комфортное сотрудничество между командами разработки и командами эксплуатации, каждая из которых специализируется на своем, но, по мере необходимости, там где нужно. При этом, вероятно, есть много отдельных команд разработки, каждая из которых работает над отдельным или частично отдельным продуктовым стеком.</p>
 
-            <p>This is the ‘promised land’ of DevOps: smooth collaboration between Dev teams and Ops teams, each specialising where needed, but also sharing where needed. There are likely many separate Dev teams, each working on a separate or semi-separate product stack.</p>
-
-            <p>My sense is that this Type 1 model needs quite substantial organisational change to establish it, and a good degree of competence higher up in the technical management team. Dev and Ops must have a clearly expressed and demonstrably effective shared goal (‘Delivering Reliable, Frequent Changes’, or whatever). Ops folks must be comfortable pairing with Devs and get to grips with test-driven coding and Git, and Devs must take operational features seriously and seek out Ops people for input into logging implementations, and so on, all of which needs quite a culture change from the recent past.</p>
+            <p>Я считаю, что модель 1-го Типа нуждается в достаточно существенных организационных изменениях для ее создания, а также в высокой степени компетентности в команде технического руководства. Разработка и эксплуатация должны иметь четко выраженную и очевидную полезную общую цель ('Доставка надежных, частых изменений' или что-то еще). Сотрудники команды эксплуатации должны уверенно сотрудничать с командой разработки, понимать и справляться с тестированием в разработке (test-driven), знать Git, а программисты должны серьезно относиться к эксплуатационным функциям и самостоятельно подключать сотрудников эксплуатации для реализации логгирования и так далее,  везде где необходимо изменение культуры из недавнего прошлого.</p>
+            
         </div>
 
         <div class="col-1-2">
@@ -333,8 +333,8 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             <div class="suitability high">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 1 suitability:</strong> an organisation with strong technical leadership.<br/>
-        <strong>Potential effectiveness:</strong> <strong><span>HIGH</span></strong></p>
+                <p><strong>Применимость Тип 1:</strong> организации с сильным техническим руководством.<br/>
+        <strong>Потенциальная эффективность:</strong> <strong><span>ВЫСОКАЯ</span></strong></p>
                 </div>
             </div>
         </div>
@@ -347,18 +347,17 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             <div class="suitability high">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 2 suitability:</strong> organisations with a single main web-based product or service.<br/>
-        <strong>Potential effectiveness:</strong> <strong><span>HIGH</span></strong></p>
+                <p><strong>Применимость Тип 2:</strong> организации с одним основным веб-продуктом или сервисом.<br/>
+        <strong>Потенциальная эффективность:</strong> <strong><span>ВЫСОКАЯ</span></strong></p>
                 </div>
             </div>
         </div>
 
         <div class="col-1-2">
-            <h5><strong>Type 2:</strong> Fully Shared Ops Reponsibilities</h5>
-
-            <p>Where operations people have been integrated in product development teams, we see a Type 2 topology. There is so little separation between Dev and Ops that all people are highly focused on a shared purpose; this is arguable a form of <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a>, but it has some special features.</p>
-
-            <p>Organisations such as Netflix and Facebook with effectively a single web-based product have achieved this Type 2 topology, but I think it’s probably not hugely applicable outside a narrow product focus, because the budgetary constraints and context-switching typically present in an organisation with multiple product streams will probably force Dev and Ops further apart (say, back to a <a href="#type-one">Type 1 model</a>). This topology might also be called ‘NoOps‘, as there is no distinct or visible Operations team (although the Netflix NoOps might also be <a href="#type-three">Type 3 (Ops as IaaS)</a>).</p>
+            <h5><strong>Тип 2:</strong> Полностью распределенные функции эксплуатации</h5>
+            <p>Там, где команда эксплуатации была интегрирована в группу разработки продуктов, мы видим топологию Типа 2. Между задачами разработки и эксплуатации мало разделения и все сотрудники сфокусированы на общей цели.  Это спорная форма <a href="#type-one">Тип 1 (Сотрудничество команд разработки и эксплуатации)</a>, но она имеет свои возможности.</p>
+            
+            <p>Такие организации, как Netflix и Facebook, практически разрабатывающих один веб-продукт, реализовали эту топологию Типа 2, но я думаю, что это, вероятно, не очень удобно за пределами узкого целевого продукта, поскольку бюджетные ограничения и контекстное переключение обычно присутствуют в организации с несколькими цифровыми продуктами, что заставит их разделить разработку и эксплуатацию, скажем, обратно к <a href="#type-one">модели Типа 1</a>. Эта топология также может быть названа «NoOps», поскольку нет отдельной или видимой команды эксплуатации (хотя Netflix NoOps также может быть <a href="#type-three">Типом 3 (Эксплуатация как IaaS)</a>).</p>
         </div>
 
         <div class="col-1-2 hidden-desktop">
@@ -367,8 +366,8 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             <div class="suitability high">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 2 suitability:</strong> organisations with a single main web-based product or service.<br/>
-        <strong>Potential effectiveness:</strong> <strong><span>HIGH</span></strong></p>
+                <p><strong>Применимость Тип 2:</strong> организации с одним основным веб-продуктом или сервисом.<br/>
+        <strong>Потенциальная эффективность:</strong> <strong><span>ВЫСОКАЯ</span></strong></p>
                 </div>
             </div>
         </div>
@@ -376,13 +375,12 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
         <div id="type-three" class="row">
         <div class="col-1-2">
-            <h5><strong>Type 3:</strong> Ops as Infrastructure-as-a-Service</h5>
+            <h5><strong>Тип 3:</strong> Эксплуатация как Инфрраструктура-как-сервис (Infrastructure-as-a-Service, IaaS)</h5>
+            <p>Для организаций с довольно традиционным отделом ИТ эксплуатации, который не может или не будет быстро (достаточно быстро) изменяться, и для организаций, которые запускают все свои приложения в публичном облаке (Amazon EC2, Rackspace, Azure и т.д.), вероятно поможет рассматривать эксплуатацию как команду, которая просто обеспечивает гибкую инфраструктуру, на которой развертываются и запускаются приложения. Внутренняя команда эксплуатации, таким образом, прямо эквивалентна Amazon EC2 или Инфраструктура-как-сервис (Infrastructure-as-a-Service).</p>
 
-            <p>For organisations with a fairly traditional IT Operations department which cannot or will not change rapidly [enough], and for organisations who run all their applications in the public cloud (Amazon EC2, Rackspace, Azure, etc.), it probably helps to treat Operations as a team who simply provides the elastic infrastructure on which applications are deployed and run; the internal Ops team is thus directly equivalent to Amazon EC2, or Infrastructure-as-a-Service.</p>
+            <p>Команда (возможно, виртуальная команда) разработки затем выступает в качестве источника знаний об эксплуатационных функциях, метриках, мониторинге, настройке серверов и т.д., и, вероятно, выполняет большую часть взаимодействия с командой IaaS. Тем не менее, эта команда по-прежнему является командой разработчиков, следует стандартным практикам, таким как TDD, CI, итеративное развитие, коучинг и т.д.</p>
 
-            <p>A team (perhaps a virtual team) within Dev then acts as a source of expertise about operational features, metrics, monitoring, server provisioning, etc., and probably does most of the communication with the IaaS team. This team is still a Dev team, however, following standard practices like TDD, CI, iterative development, coaching, etc.</p>
-
-            <p>The IaaS topology trades some potential effectiveness (losing direct collaboration with Ops people) for easier implementation, possibly deriving value more quickly than by trying for <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a> which could be attempted at a later date.</p>
+            <p>Топология IaaS разменивается некоторой потенциальной эффективностью, теряя прямое сотрудничество с командой эксплуатации, для более легкой реализации, возможно, получая ценность быстрее, чем в случае <a href="#type-one">Типа 1 (Сотрудничество команд разработки и эксплуатации)</a>, который можно попытаться воплотить позже.</p>
         </div>
 
         <div class="col-1-2">
@@ -391,8 +389,8 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
             <div class="suitability medium">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 3 suitability:</strong> organisations with several different products and services, with a traditional Ops department, or whose applications run entirely in the public cloud.<br/>
-        <strong>Potential effectiveness:</strong> <strong><span>MEDIUM</span></strong></p>
+                <p><strong>Применимость Тип 3:</strong> для организаций с несколькими различными продуктами и сервисами, с традиционным подразделением эксплуатации или чьи приложения полностью запускаются в публичном облаке.<br/>
+        <strong>Потенциальная эффективность:</strong> <strong><span>СРЕДНЯЯ</span></strong></p>
                 </div>
             </div>
         </div>
