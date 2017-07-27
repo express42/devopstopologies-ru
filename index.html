@@ -405,7 +405,6 @@
             <div class="suitability medium">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 4 suitability:</strong> smaller teams or organisations with limited experience of operational issues.<br/>
                 <p><strong>Применимость Тип 4:</strong> небольшие команды или организации с ограниченным опытом эксплуатационных проблем.<br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>СРЕДНЯЯ</span></strong></p>
                 </div>
@@ -415,10 +414,8 @@
         <div class="col-1-2">
             <h5><strong>Тип 4:</strong> DevOps как внешний сервис</h5>
 
-            <p>Some organisations, particularly smaller ones, might not have the finances, experience, or staff to take a lead on the operational aspects of the software they produce. The Dev team might then reach out to a service provider like Rackspace to help them build test environments and automate their infrastructure and monitoring, and advise them on the kinds of operational features to implement during the software development cycles.</p>
             <p>Некоторые организации, в особенности небольшие, могут не располагать финансами, опытом или персоналом, чтобы взять на себя инициативу в аспектах эксплуатации продукта, который они производят. Команда разработки может обратиться к поставщику услуг вроде Rackspace с просьбой помочь им построить тестовые окружения и автоматизировать их инфраструктуру и мониторинг, а также консультировать по поводу эксплуатационных особенностей, которые необходимо реализовать в ходе цикла разработки продукта.</p>
 
-            <p>What might be called DevOps-as-a-Service could be a useful and pragmatic way for a small organisation or team to learn about automation, monitoring, and configuration management, and then perhaps move towards a <a href="#type-three">Type 3 (Ops as IaaS)</a> or even  <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a> model as they grow and take on more staff with operational focus.</p>
             <p>То, что можно назвать DevOps-as-a-Service, может быть успешным и прагматичным выбором для маленьких организаций или команд, чтобы научиться автоматизации, мониторингу и управлению конфигурацией, и затем, возможно, перейти к модели <a href="#type-three">3-го Типа (Ops as IaaS)</a> или даже <a href="#type-one">1-го Типа (Dev and Ops Collaboration)</a> когда они расширятся наймут больше персонала с фокусом на эксплуатацию.</p>
         </div>
             
@@ -438,12 +435,9 @@
         <div id="type-five" class="row">
         <div class="col-1-2">
             <h5><strong>5 Тип:</strong> DevOps-команда с ограниченным сроком действия</h5>
-            <h5><strong>5 Тип:</strong> DevOps Team with an Expiry Date</h5>
 
-            <p>The DevOps Team with an Expiry Date (Type 5) looks substantially like <a href="#anti-type-b">Anti-Type B (DevOps Team Silo)</a>, but its intent and longevity are quite different. This temporary team has a mission to bring Dev and Ops closer together, ideally towards a <a href="#type-one">Type 1 (Dev and Ops Collaboration)</a> or <a href="#type-two">Type 2 (Fully Shared Ops Reponsibilities)</a> model, and eventually make itself obsolete.</p>
             <p>DevOps-команда с ограниченным сроком действия (5 Тип) в значительной степени похож на <a href="#anti-type-b">Антипаттерн B (отдельная DevOps-команда)</a>, но цель и продолжительность её существования совершенно другие. У этой временной команды есть задача сблизить Разработку и Эксплуатацию, в идеале к модели <a href="#type-one">1 Типа (Dev and Ops Collaboration)</a> или <a href="#type-two">2 Типа (Fully Shared Ops Reponsibilities)</a>, в конечном итоге став ненужной.</p>
 
-            <p>The members of the temporary team will ‘translate’ between Dev-speak and Ops-speak, introducing crazy ideas like stand-ups and Kanban for Ops teams, and thinking about dirty details like load-balancers, management NICs, and SSL offloading for Dev teams. If enough people start to see the value of bringing Dev and Ops together, then the temporary team has a real chance of achieving its aim; crucially, long-term responsibility for deployments and production diagnostics should not be given to the temporary team, otherwise it is likely to become a <a href="#anti-type-b">DevOps Team Silo (Anti-Type B).</a></p>
             <p>Члены временной команды будут ‘переводчиками’ между Разработкой и Эксплуатацией, предлагая безумные идеи в виде stand-up-ов и Канбан'а для команды эксплуатации, и думая о неприличных деталях наподобие балансировщиков нагрузки, управления сетевыми интерфейсами и SSL-offloading'ом для команды Разработки. Если достаточно людей начинает видеть значительное сближение Разработки и Эксплуатации, то у временной команды есть реальный шанс достичь своей цели. Принципиально, что долгосрочная ответственность за развертывание и диагностику продуктового окружения не должна быть возложена на временную команду, иначе это становится похожим на <a href="#anti-type-b">Отдельную DevOps команду (Антипаттерн B).</a></p>
         </div>
             
@@ -469,7 +463,6 @@
             <div class="suitability medium">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Применимость Тип 6:</strong> organisations with a tendency for Dev and Ops to drift apart. Beware the danger of <a href="#anti-type-b">Anti-Type B.</a><br/>
                 <p><strong>Применимость Тип 6:</strong> организации с тенденцией отдаления Разработки и Эксплуатации. Остерегаясь <a href="#anti-type-b">Антипаттерна B</a>. <br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>От СРЕДНЕЙ до ВЫСОКОЙ</span></strong></p>
                 </div>
@@ -479,7 +472,6 @@
         <div class="col-1-2">
             <h5><strong>Type 6:</strong> DevOps Evangelists Team</h5>
 
-            <p>Within organisations that have a large gap between Dev and Ops (or the tendency towards a large gap), it can be effective to have a 'facilitating' DevOps team that keeps the Dev and Ops sides talking. This is a version of <a href="#type-five">Type 5 (DevOps Team with an Expiry Date)</a> but where the DevOps team exists on an ongoing basis with the specific remit of facilitating collaboration and cooperation between Dev and Ops teams. Members of this team are sometimes called 'DevOps Evangelists', because they help to spread awareness of DevOps practices.</p>
             <p>Внутри организаций, в которых существует огромный разрыв между Разработкой и Эксплуатацией (или склонность к образованию разрыва), может быть эффективно иметь 'вспомогательную' DevOps-команду, которая бы призывала Разработку и Эксплуатацию к диалогу. Это версия <a href="#type-five">5-го Типа (DevOps-команда с ограниченным сроком действия)</a>, но где DevOps-команда существует на постоянной основе с компетенцией содействия сотрудничеству и взаимодействию между Разработкой и Эксплуатацией. Членов этой команды иногда называют 'DevOps евангелистами', поскольку они помогают распространить понимание DevOps практик.</p>
 
             <div class="tweet"><p><a href="https://twitter.com/ericminick/status/517335119330172930">The goal for a "DevOps Team" should be to put itself out of business by enabling the rest of the org.</a></p>
@@ -496,7 +488,6 @@
             <div class="suitability medium">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Применимость Тип 6:</strong> organisations with a tendency for Dev and Ops to drift apart. Beware the danger of <a href="#anti-type-b">Anti-Type B.</a><br/>
                 <p><strong>Применимость Тип 6:</strong> организации с тенденцией отдаления Разработки и Эксплуатации. Остерегаясь <a href="#anti-type-b">Антипаттерна B</a>. <br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>От СРЕДНЕЙ до ВЫСОКОЙ</span></strong></p>
                 </div>
@@ -508,10 +499,8 @@
         <div class="col-1-2">
             <h5><strong>7 Тип:</strong> SRE Команда (Модель Google)</h5>
 
-            <p>DevOps often recommends that Dev teams join the on-call rotation, but it's not essential. In fact, some organisations (including Google) run a different model, with an explicit 'hand-off' from Development to the team that runs the software, the Site Reliability Engineering (SRE) team. In this model, the Dev teams need to provide test evidence (logs, metrics, etc.) to the SRE team showing that their software is of a good enough standard to be supported by the SRE team.</p>
             <p>DevOps часто рекомендует, чтобы команда разработки присоединялась к ротации в дежурстве, но это не существенно. По факту, некоторые организации (включая Google) используют другую модель, с явной передачей 'из рук в руки' от Разработки к команде, которая запускает продукт, т.е. команде обеспечению надежности информационных систем (SRE). В этой модели команде Разработки нужно обеспечить данные тестов (логи, метрики и т.д.) команде SRE, показывая, что их продукт соответствует норме, чтобы дальше поддерживаться командой SRE.</p>
 
-            <p>Crucially, the SRE team can reject software that is operationally substandard, asking the Developers to improve the code before it is put into Production. Collaboration between Dev and SRE happens around operational criteria but once the SRE team is happy with the code, they (and not the Dev team) support it in Production.</p>
             <p>По существу, команда SRE может отклонить продукт, который не соответствует эксплуатационной норме, запросив Разработчиков улучшить код перед его отправкой на продуктовое окружение. Взаимодействие между Разработкий и SRE происходит в пределах критериев эксплуатации, но когда команда SRE довольна кодом, они (а не команда Разработки) поддерживает его в продуктовом окружении.</p>
         </div>
             
@@ -523,7 +512,6 @@
             <div class="suitability high">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 7 suitability:</strong> Type 7 is suitable only for organisations with a high degree of engineering and organisational maturity. Beware of a return to <a href="#anti-type-a">Anti-Type A</a> if the SRE/Ops team is told to "JFDI" deploy.<br/>
                 <p><strong>Применимость Тип 7:</strong> Тип 7 применим только для организаций с высокой степенью инженерной и организационной зрелости. Остерегайтесь возвращения к <a href="#anti-type-a">Антипаттерну A</a> если SRE/Ops команде говорят "Просто Блин Выкати Это".<br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>От НИЗКОЙ до ВЫСОКОЙ</span></strong></p>
                 </div>
@@ -541,7 +529,6 @@
             <div class="suitability medium">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 8 suitability:</strong> Containers can work very well, but beware <a href="#anti-type-a">Anti-Type A</a>, where the Ops team is expected to run anything that Dev throws at it.<br/>
                 <p><strong>Применимость Тип 8:</strong> Контейнеры могут работать отлично, но остерегайтесь <a href="#anti-type-a">Антипаттерна A</a>, где команда Эксплуатации должна запускать все, что Разработка отдает им.<br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>От СРЕДНЕЙ до ВЫСОКОЙ</span></strong></p>
                 </div>
@@ -551,7 +538,6 @@
         <div class="col-1-2">
             <h5><strong>8 Тип:</strong> Взаимодействие через контейнеры</h5>
 
-            <p>Containers remove the need for some kinds of collaboration between Dev and Ops by encapsulating the deployment and runtime requirements of an app into a container. In this way, the container acts as a boundary on the responsibilities of both Dev and Ops. With a sound engineering culture, the Container-Driven Collaboration model works well, but if Dev starts to ignore operational considerations this model can revert towards to an adversarial 'us and them'.</p>
             <p>Контейнеры убирают необходимость в некоторых типах взаимодействия между Разработкой и Эксплуатацией перекладывая требования по развертыванию и сопровождению приложения на контейнер. В таком случае, контейнер выступает границей ответственности Разработки и Эксплуатации. В здоровой инженерной культуре, модель Взаимодействия через контенеры работает отлично, но если Разработка начинает игнорировать эксплуатационные особенности, такая модель может вернуться к противоречащему 'мы и они'.</p>
         </div>
             
@@ -563,7 +549,6 @@
             <div class="suitability medium">
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
-                <p><strong>Type 8 suitability:</strong> Containers can work very well, but beware <a href="#anti-type-a">Anti-Type A</a>, where the Ops team is expected to run anything that Dev throws at it.<br/>
                 <p><strong>Применимость Тип 8:</strong> Контейнеры могут работать отлично, но остерегайтесь <a href="#anti-type-a">Антипаттерна A</a>, где команда Эксплуатации должна запускать все, что Разработка отдает им.<br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>От СРЕДНЕЙ до ВЫСОКОЙ</span></strong></p>
                 </div>
@@ -575,7 +560,6 @@
         <div class="col-1-2">
             <h5><strong>9 Тип:</strong> Взаимодействие Разработки и DBA </h5>
 
-            <p>In order to bridge the Dev-DBA chasm, some organisations have experimented with something like Type 9, where a database capability from the DBA team is complimented with a database capability (or specialism) from the Dev team. This seems to help to translate between the Dev-centric view of databases (as essentially dumb persistence stores for apps) and the DBA-centric view of databases (smart, rich sources of business value).</p>
             <p>Для того чтобы преодолеть разрыв между Разработкой и DBA, некоторые организации экспериментировали с чем-то вроде структурой 9-го Типа, где возможности баз данных от DBA складываются с возможностями (или специализацией) от команды Разработки. Похоже, что это помогает перейти с Dev-ориентированного представления баз данных (по сути, просто тупое храненилище для приложений) на DBA-ориентированное (интеллектуальные, богатые источники бизнес-ценности).</p>
         </div>
             
@@ -586,8 +570,7 @@
                 <i class="fa fa-check-circle"></i>
                 <div class="suitability-inner">
                 <p><strong>Type 9 suitability:</strong> for organisations with one or more large, central databases with multiple connected applications.<br/>
-        <strong>Potential effectiveness:</strong> <strong><span>MEDIUM</span></strong></p>
-        <p><strong>Применимость Тип 9:</strong> для организаций с одной и более большими централизованными базами данных с множеством подключенных приложений.<br/>
+                <p><strong>Применимость Тип 9:</strong> для организаций с одной и более большими централизованными базами данных с множеством подключенных приложений.<br/>
         <strong>Потенциальная эффективность:</strong> <strong><span>СРЕДНЯЯ</span></strong></p>
                 </div>
             </div>
