@@ -232,11 +232,11 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
         <div id="anti-type-e" class="row">
         <div class="col-1-2">
-            <h5><strong>Anti-Type E:</strong> Rebranded SysAdmin</h5>
+            <h5><strong>Антипаттерн E:</strong> Переименованные сисадмины</h5>
 
-            <p>This anti-type is typical in organizations with low engineering maturity. They want to improve their practices and reduce costs, yet they fail to see IT as a core driver of the business. Because industry successes with DevOps are now evident, they want to "do DevOps" as well. Unfortunately, instead of reflecting on the gaps in the current structure and relationships, they take the elusive path of hiring "DevOps engineers" for their Ops team(s).</p>
+            <p>Этот типичный антипаттерн для организаций с низкой инженерной зрелостью. Они хотят улучшить свои практики и уменьшить стоимость, но они не видят IT как основной двигатель бизнеса. Поскольку успехи с DevOps в отрасли теперь очевидны, они тоже хотят “сделать DevOps”.</p>
 
-            <p>DevOps becomes just a rebranding of the role previously known as SysAdmin, with no real cultural/organizational change taking place. This anti-type is becoming more and more widespread as unscrupulous recruiters jump on the bandwagon searching for candidates with automation and tooling skills. Unfortunately, it's the human communication skills that can make DevOps thrive in an organization.</p>
+            <p>DevOps становится всего лишь переименованием роли, уже известной ранее как системный администратор, без каких-либо культурных или организационных изменений. Этот антипаттерн становится все более и более распространенным из-за того, что недобросовестные рекрутеры начинают искать кандидатов с навыками автоматизации и инструментов. К сожалению, лишь их межличностные коммуникативные навыки могут сделать DevOps в компании процветающим.</p>
         </div>
 
         <div class="col-1-2">
@@ -254,11 +254,11 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
         </div>
 
         <div class="col-1-2">
-            <h5><strong>Anti-Type F:</strong> Ops Embedded in Dev Team</h5>
+            <h5><strong>Антипаттерн F:</strong> Эксплуатация встроенная в команду разработки</h5>
 
-            <p>The organization does not want to keep a separate Ops team, so development teams take responsibility for infrastructure, managing environments, monitoring, etc. However, doing so in a project or product-driven way means those items are subject to resource constraints and re-prioritizations which lead to subpar approaches and half-baked solutions.</p>
+            <p>Организация не хочет держать отдельную команду эксплуатации, поэтому команды разработки берут на себя ответственность за инфраструктуру, управление окружениями, мониторинг и т.д. Однако, делать это в рамках проекта или продукта, означает подвергнуть эти элементы ограничению ресурсов и изменению приоритетов, которые приведут к непостоянным и полузаконченным решениям.</p>
 
-            <p>In this anti-type the organization shows lack of appreciation for the importance and skills required for effective IT operations.</p>
+            <p>В этом антипаттерне организация демонстрирует недооценку важности и навыков, требуемых для эффективной IT эсплуатации.</p>
         </div>
 
         <div class="col-1-2 hidden-desktop">
@@ -271,11 +271,11 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
         <div id="anti-type-g" class="row">
         <div class="col-1-2">
-            <h5><strong>Anti-Type G:</strong> Dev and DBA Silos</h5>
+            <h5><strong>Антипаттерн G:</strong> Изоляция разработчиков и DBA</h5>
 
-            <p>This is a form of <a href="#anti-type-a">Anti-Type A (Dev and Ops Silos)</a> which is prominent in medium-to-large companies where multiple legacy systems depend on the same core set of data. Because these databases are so vital for the business, a dedicated DBA team, often under the Ops umbrella, is responsible for their maintenance, performance tuning and disaster recovery. That is understandable. The problem is when this team becomes a gate keeper for any and every database change, effectively becoming an obstacle to small and frequent deployments (a core tenet of DevOps and Continuous Delivery).</p>
+            <p>Это форма <a href="#anti-type-a">Антипаттерна А (Изоляция разработки и эксплуатации)</a>, которая популярна в средних и крупных компаниях, где множество устаревших систем, зависящих от одного и того же набора данных. Эти базы данных настолько важны для бизнеса, что специализированная команда DBA, часто под зонтиком эксплуатации, отвечает за обслуживание, производительность и аварийное восстановление. Это можно понять. Проблема в том, что эта команда становится сторожем ворот от любых изменений базы данных, что, фактически, становится препятствием для небольших и частых поставок. (Основной принцип DevOps и непрерывной поставки).</p>
 
-            <p>Furthermore, just like Ops in <a href="#anti-type-a">Anti-Type A</a>, the DBA team is not involved early in the application development, thus data problems (migrations, performance, etc) are found late in the delivery cycle. Coupled with the overload of supporting multiple applications databases, the end result is constant firefighting and mounting pressure to deliver.</p>
+            <p>Кроме того, как и эксплуатация в <a href="#anti-type-a">Антипаттерне А</a>, команда DBA не участвует в раннем этапе разработки приложения, поэтому проблемы с данными (миграция, производительность и т.д.) обнаруживаются в конце цикла поставки. В сочетании с перегруженностью от поддержки множества приложений и баз данных, в конечном итоге это приводит к постоянному пожаротушению и давлению на процесс поставки.</p>
         </div>
 
         <div class="col-1-2">
@@ -291,10 +291,9 @@ we might call ‘anti-types’ (after the ubiquitous ‘anti-pattern‘).</p>
 
         <div id="team-topologies" class="full-width-section dark" style="background:url(images/bg-lt-blue.jpg);">
         <div class="container">
-            <h2><strong>DevOps</strong> Team Topologies</h2>
-
+            <h2><strong>DevOps</strong> структуры команд</h2>
             <div class="sub-heading">
-            <p>In opposition to the anti-types, we can look at some topologies in which DevOps can be made to work.</p>
+              <p>В противовес антипаттернам мы можем посмотреть на некоторые структуры, в которых DevOps может работать</p>
             </div>
         </div>
     </div>
