@@ -1,5 +1,5 @@
-# devopstopologies
+# devopstopologies-ru
 
 Russian translation of http://web.devopstopologies.com (https://github.com/SkeltonThatcher/devopstopologies)
 
-Currently WIP
+https://express42.com/
